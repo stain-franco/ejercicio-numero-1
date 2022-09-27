@@ -1,0 +1,15 @@
+public class segundaParte {
+    public static void main (String[]args){
+        Coche miCoche = new Coche();
+        miCoche.SumarPuerta();
+        System.out.println("el numero total de puertas es: "+miCoche.puertas);
+    }
+}
+
+class Coche{
+    public int puertas = 3;
+
+    public void SumarPuerta(){
+        this.puertas++;
+    }
+}
